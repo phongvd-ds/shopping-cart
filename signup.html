@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class=" ">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sign up</title>
+    <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="css/app.v1.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <!--[if lt IE 9]> <script src="js/ie/html5shiv.js"></script> <script src="js/ie/respond.min.js"></script> <script src="js/ie/excanvas.js"></script> <![endif]-->
+</head>
+
+<body class="bg-page">
+    <section id="content" class="m-t-lg wrapper-md animated fadeInDown ss-page">
+        <div class="container aside-xl">
+            <a class="text-white navbar-brand block" href="index.html">Sign up</a>
+            <section class="m-b-lg">
+                <header class="wrapper text-center">
+                    <strong>Sign up to find interesting thing</strong>
+                </header>
+                <form action="index.html">
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <input placeholder="Name" class="form-control no-border"> </div>
+                        <div class="list-group-item">
+                            <input type="email" placeholder="Email" class="form-control no-border"> </div>
+                        <div class="list-group-item">
+                            <input type="password" placeholder="Password" class="form-control no-border"> </div>
+                    </div>
+                    <div class="checkbox m-b">
+                        <label>
+                            <input type="checkbox"> Agree the
+                            <a class="text-white" data-toggle="modal" data-target="#terms">terms and policy</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-primary btn-block">Sign up</button>
+                    <div class="line line-dashed"></div>
+                    <p class="text-muted text-center">
+                        <small>Already have an account?</small>
+                    </p>
+                    <a href="signin.html" target="_blank" class="btn btn-lg btn-default btn-block">Sign in</a>
+                </form>
+            </section>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="terms" role="dialog">
+        <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Terms and Policy</h4>
+            </div>
+            <div class="modal-body">
+            <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="text-center padder clearfix">
+            <p>
+                    <small>Copyright &copy; 2018</small>
+            </p>
+        </div>
+    </footer>
+    <!-- / footer -->
+    <!-- Bootstrap -->
+    <!-- App -->
+    <script src="js/app.v1.js"></script>
+    <script src="js/app.plugin.js"></script>
+</body>
+
+</html>

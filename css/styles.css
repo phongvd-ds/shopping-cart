@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+.bg-page {
+    background: url(../images/bglg.png) no-repeat center top;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    font-weight: normal;
+}
+.ss-page {
+    margin-top: 0;
+}
+.loginpage .forgotpass {
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.loginpage .forgotpass a{
+    text-decoration: underline;
+}
+#terms {
+    color: #888;
+}
+.checkbox .text-white{
+    text-decoration: underline;
+}
